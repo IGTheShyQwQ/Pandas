@@ -17,3 +17,11 @@ It has five parameters:
   * We choose to drop both name columns and toy columns where has missing values.
 
 * 
+
+### Panda 对于数据的抓取
+
+* 在pandas中抓取特定行数据：
+  * print( dataframe['column name'] )  
+
+* 可以对数据进行限制
+  * print( dataframe[dataframe.column != 1])
